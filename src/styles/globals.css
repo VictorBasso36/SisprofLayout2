@@ -171,3 +171,7 @@ a {
   height: 12px!important;
   background-color: white!important;
 }
+
+.swiper, swiper-container{
+  height: 100%;
+}
