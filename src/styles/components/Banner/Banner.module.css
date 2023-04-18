@@ -16,13 +16,14 @@
 .BannerContent{
     width: 100%;
     max-width: 1500px;
+    height: 450px;
     background-color: var(--Main-Color);
     display: flex;
     justify-content: space-between;
 }
 
 .TextBanerHere{
-    width: 550px;
+    width: 650px;
     height: 450px;
     display: flex;
     align-items: center;
@@ -46,12 +47,6 @@
     width: 100%;
 }
 
-.BannerSwiperHere{
-    height: 80px;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-}
 
 
 .SwiperHere{
@@ -62,4 +57,38 @@
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.swiper-button-disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+  
+.swiper-pagination{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+  }
+
+.BannerSwiperHere{
+    height: 80px;
+    position: absolute;
+    bottom: 0;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 100%;
+}
+
+.MainSlide{
+    width: 100%;
+    height: 100%;
+}
+
+.ImagensBanner{
+    width: 100%;
+    height: 100%;
 }
