@@ -1,0 +1,86 @@
+.MainCard{
+    min-height: 385px;
+    height: auto;
+    width: 95%;
+    max-width: 325px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    border-radius: 25px;
+    overflow: hidden;
+    background-color: var(--Main-Color);
+}
+
+.CardImage{
+    width: 100%;
+    height: 220px;
+}
+
+.CardInfo{
+    width: 100%;
+}
+
+.CardInfo{
+    min-height: 60px;
+    padding: 0px 15px;
+}
+
+.ItemsCard{
+    min-height: 70px;
+    height: auto;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.item{
+    display: flex;
+ 
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+
+.item p{
+    color: white;
+    margin-left: 5px;
+}
+
+.item svg{
+    height: 100%;
+    height: unset;
+}
+
+.PriceCard{
+    background-color: #444033;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+}
+
+.PriceCard p{
+    font-size: 15px;
+    color: white;
+}
+
+.PriceCard p strong{
+    font-size:25px;
+}
+
+.CardTitle{
+    color: var(--Main-Color);
+    font-size: 18px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.CardTitle p{
+    font-weight: bold;
+    color: white;
+}

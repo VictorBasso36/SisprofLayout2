@@ -1,0 +1,211 @@
+.MainFooter{
+    width: 100%;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    justify-content: center;
+}
+
+.MainFooterContainer{
+    max-width: var(--max-width);
+    display: flex;
+    width: 95%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.MainFooterContainer ul{
+    display: flex;
+    list-style: none;
+}
+
+.MainFooterContainer ul li p{
+    font-weight: bolder;
+    color: var(--Main-Color);
+}
+
+.MainFooterContainer ul li p:hover{
+    text-decoration:underline 1px var(--Main-Color);
+}
+
+.MainFooterContainer ul li{
+    margin-left: 60px;
+    font-size: 20px;
+}
+.MainFooterContainer ul li:hover{
+    text-decoration: underline 1px var(--Main-Color);
+    
+}
+.MainFooterContainer ul li:nth-child(1){
+    margin-left: 0px;
+}
+
+.HambMenu{
+    display: none;
+}
+
+.ModalNavbar{
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content:flex-start;
+    overflow-y: auto;
+}
+
+.ClientAreaButton{
+    border: 1px solid var(--Main-Color);
+    padding: 0px 10px;
+}
+
+.ClientAreaButton p{
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--Main-Color);
+}
+
+.MainNavbarLogo{
+    width: 180px;
+}
+
+
+/*==================*/
+.ModalNavbarContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.ModalNavbarContainer ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-bottom: 80px;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 22px;
+}
+
+.ModalNavbarContainer ul li p{
+    color: var(--Main-Color);
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.ModalNavbarContainer ul li{
+    margin-top: 30px;
+}
+
+.ClientAreaButtonModal{
+    border: 1px solid var(--Main-Color);
+    padding: 0px 10px;
+}
+
+.ModalNavbarContainer ul li:hover p{
+    text-decoration: underline 1px solid;
+}
+
+.HeaderModalClose{
+    width: 90%;
+    margin-top: 30px;
+    height: 80px;
+    max-width: var(--max-width);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.HambMenuModalClose{
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.HambMenuModalCloseContainer{
+    width: 100%;
+    height: 60%;
+    position: relative;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    
+}
+
+.HambMenuModalCloseContainer div{
+    width: 100%;
+    height: 4px;
+    border-radius: 12px;
+    transition: all 500ms;
+    position: absolute;
+    background-color: var(--Main-Color);
+}
+
+.HambMenuModalCloseContainer:hover div:nth-child(1){
+    transform: rotate(45deg);
+    background-color: var(--Text-Color);
+}
+
+.HambMenuModalCloseContainer:hover div:nth-child(2){
+    transform: rotate(-45deg);
+    background-color: var(--Text-Color);
+}
+
+.HambMenuModalCloseContainer div:nth-child(1){
+    transform: rotate(-45deg);
+}
+
+.HambMenuModalCloseContainer div:nth-child(2){
+    transform: rotate(45deg);
+}
+
+@media screen and (max-width:1024px){
+    .HambMenu{
+        display: flex;
+        height: 60px;
+        width: 60px;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .HambMenuContainer{
+        width: 90%;
+        height: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+
+    .HambMenuContainer div{
+        background-color: var(--Text-Color);
+        width: 100%;
+        height: 5px;
+        border-radius: 3px;
+    }
+
+
+
+    .MainFooterContainer ul{
+        display: none;
+        list-style: none;
+    }
+
+    .ClienteArea{
+        display: none;
+    }
+
+    .ClientAreaButton{
+        display: none;
+    }
+}

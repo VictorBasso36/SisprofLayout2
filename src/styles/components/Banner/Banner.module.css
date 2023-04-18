@@ -1,0 +1,65 @@
+.Banner{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.BannerContainer{
+    width: 90%;
+    max-width: 1500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.BannerContent{
+    width: 100%;
+    max-width: 1500px;
+    background-color: var(--Main-Color);
+    display: flex;
+    justify-content: space-between;
+}
+
+.TextBanerHere{
+    width: 550px;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    text-align: left;
+    position: relative;
+    padding: 80px 20px;
+}
+
+.TextBanerHere h2{
+    color: white;
+    font-size: 35px;
+    width: 100%;
+}
+
+.TextBanerHere p{
+    line-height: 100%;
+    color: white;
+    font-size: 16px;
+    width: 100%;
+}
+
+.BannerSwiperHere{
+    height: 80px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+
+.SwiperHere{
+    background-color: var(--Second-Color);
+    width: 65%;
+    max-width: 65%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
