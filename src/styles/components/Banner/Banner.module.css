@@ -7,7 +7,7 @@
 }
 
 .BannerContainer{
-    width: 90%;
+    width: 95%;
     max-width: 1500px;
     display: flex;
     align-items: center;
@@ -23,7 +23,7 @@
 }
 
 .TextBanerHere{
-    width: 650px;
+    width: 550px;
     height: 450px;
     display: flex;
     align-items: center;
@@ -92,4 +92,126 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+
+@media screen and (min-width:850px) and (max-width:1150px){
+    .BannerContent{
+        width: 100%;
+        max-width: 1500px;
+        height: auto;
+        background-color: var(--Main-Color);
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    
+    .SwiperHere{
+        background-color: var(--Second-Color);
+        width: 100%;
+        max-width: 100%;
+        height: 450px;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .TextBanerHere{
+        width: 100%;
+        height: auto;
+        min-height: 400px;
+        max-height: 450px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        flex-direction: column;
+        text-align: left;
+        position: relative;
+        padding: 80px 20px;
+    }
+    
+}
+
+@media screen and (min-width:550px) and (max-width:850px){
+    .BannerContent{
+        width: 100%;
+        max-width: 1500px;
+        height: auto;
+        background-color: var(--Main-Color);
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    
+    .SwiperHere{
+        background-color: var(--Second-Color);
+        width: 100%;
+        max-width: 100%;
+        height: 60vw;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .TextBanerHere{
+        width: 100%;
+        height: auto;
+        min-height: 400px;
+        max-height: 450px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        flex-direction: column;
+        text-align: left;
+        position: relative;
+        padding: 80px 20px;
+    }
+    
+}
+
+
+@media screen and (min-width:280px) and (max-width:550px){
+    .BannerContent{
+        width: 100%;
+        max-width: 1500px;
+        height: auto;
+        background-color: var(--Main-Color);
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    
+    .SwiperHere{
+        background-color: var(--Second-Color);
+        width: 100%;
+        max-width: 100%;
+        height: 60vw;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .TextBanerHere{
+        width: 100%;
+        height: 80vw;
+        min-height: 400px;
+        max-height: 750px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        flex-direction: column;
+        text-align: left;
+        position: relative;
+        padding: 80px 20px;
+    }
+
+    .ContentHereBanner h2{
+        font-size: 26px;
+    }
+    
 }
