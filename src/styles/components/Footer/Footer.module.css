@@ -331,4 +331,10 @@
     .submitedArea button{
         margin-left: unset;
     }
+
+    .FooterContactForm form{
+        width: 100%;
+        max-width: 600px;
+    }
+    
 }

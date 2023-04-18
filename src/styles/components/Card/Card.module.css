@@ -84,3 +84,21 @@
     font-weight: bold;
     color: white;
 }
+
+
+@media screen and (min-width:280px) and (max-width:550px){
+    .MainCard{
+        min-height: 385px;
+        height: auto;
+        scale: 0.9;
+        width: 95%;
+        max-width: 325px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        flex-direction: column;
+        border-radius: 25px;
+        overflow: hidden;
+        background-color: var(--Main-Color);
+    }    
+}

@@ -207,11 +207,19 @@
         flex-direction: column;
         text-align: left;
         position: relative;
-        padding: 80px 20px;
+        padding: 60px 20px;
     }
 
     .ContentHereBanner h2{
         font-size: 26px;
     }
     
+
+    .BannerContainer{
+        width: 100%;
+        max-width: 1500px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
 }

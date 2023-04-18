@@ -167,6 +167,7 @@
         justify-content: center;
         flex-direction: column;
         margin: 50px 10px;
+        scale: 90%;
     }
     
 }
